@@ -1,13 +1,13 @@
 {
     "name": "@znetstar/attic-server-elasticsearch-events",
-    "version": "1.0.0",
-    "description": "Access objects in Attic Server via a REST interface",
+    "version": "1.0.1",
+    "description": "",
     "main": "lib/Atticfile.js",
     "scripts": {
         "test": "true",
         "build": "grunt default"
     },
-    "homepage": "https://github.com/znetstar/attic",
+    "homepage": "https://githusb.com/znetstar/attic",
     "bugs": "https://github.com/znetstar/attic/issues",
     "repository": {
         "url": "https://github.com/znetstar/attic.git",
