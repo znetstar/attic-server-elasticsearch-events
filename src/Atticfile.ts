@@ -42,7 +42,10 @@ export class AtticServerElasticSearchEvents implements IPlugin {
           this.client.index({
             index: `${this.eventsIndexPrefix ? this.eventsIndexPrefix + '.' : ''}${body.type}`,
             id: body._id,
-            body
+            body: {
+              ...body,
+              _id: void(0)
+            }
           })
         });
       }
