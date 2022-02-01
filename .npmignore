@@ -1,7 +1,6 @@
 node_modules/
 .tscache
 attic-server/data
-*/lib
 .idea
 idea
 .DS_STORE
@@ -9,3 +8,4 @@ idea
 tscommand*
 .vscode
 tscommand*
+src/
